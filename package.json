@@ -2,7 +2,7 @@
   "name": "portfolio-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Shreyans1711.github.io/portfolio-website/",
+  "homepage": "https://shreyans1711.github.io/portfolio-website/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^11.13.1",
