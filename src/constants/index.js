@@ -11,6 +11,7 @@ export const PROJECTS = [
   {
     title: "Alumni Portal",
     image: project1,
+    link: "https://github.com/Shreyans1711/Alumni-Portal-IITISOC-24",
     description:
       "A web application for managing alumni data, allowing users to connect, share updates, and access resources.",
     technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
@@ -18,6 +19,7 @@ export const PROJECTS = [
   {
     title: "Metacryst Club Website",
     image: project2,
+    link: "https://metacryst-website.vercel.app/",
     description:
       "A website for the Metacryst Club, providing information about events, members, and resources.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Framer Motion"],
@@ -25,6 +27,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project3,
+    link: "https://github.com/Shreyans1711/Portfolio-Website",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Framer Motion"],
@@ -32,7 +35,9 @@ export const PROJECTS = [
   {
     title: "Chess Website",
     image: project4,
-    description: "A fully functional online chess game built from scratch using Next.js, featuring drag-and-drop, timers, and core game mechanics.",
+    link: "https://github.com/Shreyans1711/Dark-Chess",
+    description:
+      "A fully functional online chess game built from scratch using Next.js, featuring drag-and-drop, timers, and core game mechanics.",
     technologies: ["NextJS", "Tailwind CSS"],
   },
 ];
