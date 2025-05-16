@@ -19,7 +19,7 @@ const About = () => {
                 </motion.div>
                     <div className='w-full lg:w-1/2'>
                         <div className='flex justify-center lg:justify-start'>
-                            <motion.p whileInView={{opacity:1, x:0}} initial={{x:100,opacity:0}} transition={{duration:1, delay:0.8}} className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</motion.p>
+                            <motion.p whileInView={{opacity:1, x:0}} initial={{x:100,opacity:0}} transition={{duration:1, delay:0.8}} className='text-[10px] sm:text-[20px] my-2 max-w-xl py-6'>{ABOUT_TEXT}</motion.p>
                         </div>
                     </div>
             </div>

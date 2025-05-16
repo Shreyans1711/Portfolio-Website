@@ -20,7 +20,7 @@ const Hero = () => {
             <motion.span variants={Container(0.5)} initial = "hidden" animate = "visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
               Full Stack Developer and Competitive Programmer
             </motion.span>
-            <motion.p variants={Container(1)} initial = "hidden" animate = "visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">
+            <motion.p variants={Container(1)} initial = "hidden" animate = "visible" className="text-[10px] sm:text-[20px] my-2 max-w-xl py-6 font-light tracking-tighter">
               {HERO_CONTENT}
             </motion.p>
           </div>
